@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto eat</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="reset .css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topo">
+       <div class="titulotopo">
+        <div class="titulo1">DrivenEats </div>
+        <div class="titulo2">Sua comida em 6 minutos</div>
+       </div>
+    </div>
+
+    <div class="menugeral">
+      <div class="titulomenu">Primeiro, seu prato</div>
+       <div class="menu" id="comida">
+        <div class="item">
+            <img class="pf_frango" src="imagens\img\pf_frango.jpg" />
+            <p class="nomeitem">Frango Yin Yang</p>
+            <p class="descricaoprato">Arroz, feijão e salada.</p>
+            <p class="valor">16.90</p>
+        </div>
+        <div class="item">
+            <img class="pf_calabresa" src="imagens\img\pf_calabresa.png" />
+            <p class="nomeitem">Calabresa Acebolada</p>
+            <p class="descricaoprato">Arroz, feijão e aipim.</p>
+            <p class="valor">14.90</p>
+        </div>
+        <div class="item">
+            <img class="pf_carne" src="imagens\img\pf_carne.jpg" />
+            <p class="nomeitem">Bife a cavalo</p>
+            <p class="descricaoprato">Arroz, feijão e fritas.</p>
+            <p class="valor">19.90</p>
+        </div>
+            
+       </div>
+    <div class="titulomenu2">Agora, sua bebida</div>
+        <div class="menu" id="bebida">
+            <div class="item">
+                <img class="bebida_refrigerantelata" src="imagens\img\coca.png" />
+                <p class="nomeitem">Refrigerante </p>
+                <p class="descricaoprato">Lata 350ml.</p>
+                <p class="valor">5.90</p>
+            </div>
+            <div class="item">
+                <img class="bebida_refrigeranteks" src="imagens\img\Design sem nome.png" />
+                <p class="nomeitem">Refrigerante</p>
+                <p class="descricaoprato">Ks 290ml.</p>
+                <p class="valor">4.90</p>
+            </div>
+            <div class="item">
+                <img class="bebida_suco" src="imagens\img\suco.png" />
+                <p class="nomeitem">Suco</p>
+                <p class="descricaoprato">Copo 350ml.</p>
+                <p class="valor">8.90</p>
+            </div>
+        </div>
+    <div class="titulomenu3">Por fim, sua sobremesa</div>
+        <div class="menu" id="sobremesa">
+            <div class="item">
+                <img class="sobremesa_pudim" src="imagens\img\pudim.jpg" />
+                <p class="nomeitem">Pudim </p>
+                <p class="descricaoprato"> de leite condensado</p>
+                <p class="valor">5.50</p>
+            </div>
+            <div class="item">
+                <img class="sobremesa_mousse" src="imagens\img\mouse.jpg" />
+                <p class="nomeitem">Mousse</p>
+                <p class="descricaoprato"> de maracujá</p>
+                <p class="valor">6.50</p>
+            </div>
+            <div class="item">
+                <img class="sobremesa_brownie" src="imagens\img\brownie.jpg" />
+                <p class="nomeitem">Brownie</p>
+                <p class="descricaoprato">de chocolate</p>
+                <p class="valor">3.50</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="barrainferior">
+        <button onclick="finalizarpagamento ()" class="fecharpedido"> Selecione os 3 itens </br> para fechar o pedido </button>
+     </div>
+
+     <div class="telabranca escondido">
+        <div class="pagamento">
+          <div class="confirmar"> Confirme seu pedido/n</div>
+
+          <a href="https://wa.me//5521985767404" 
+          
+          class="comprar"> Tudo certo, pode pedir!</a>
+          <button onclick="cancelarpedido ()" class="cancelar"> Cancelar</button>
+        </div>
+     </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
